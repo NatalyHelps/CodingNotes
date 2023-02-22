@@ -43,8 +43,8 @@ To optimize applications, build tools use a variety of processes including: code
 **Tree-shaking** is a type of dead-code elimination that searches included modules for files and functions that are not used.
 
 Build tools use different combinations of these to help streamline web apps.
-
- >>>![graph](process-review.svg "Title")
+<span style = "color:black">
+ >>>![graph](process-review.svg "Title")</span>
 <sup> 1. Source, 2. Compile, 3. Bundle, 4. Run, 5. Deploy
 
 ------
