@@ -21,7 +21,7 @@
 
 * The bundler maps the connections between assets in a **dependency graph.** 
 
->>>A **dependency graph**  is a type of data structure formed by a directed graph representing the relationship between different files. It maps the connections between different files to tell the bundler what needs to be included in order to build the application.
+>>A **dependency graph**  is a type of data structure formed by a directed graph representing the relationship between different files. It maps the connections between different files to tell the bundler what needs to be included in order to build the application.
  When one file depends on another, a connection is added to the graph. Once all the connections are added, the bundler knows exactly what it must incorporate into the build.
  ![graph](dependency-graph.svg "Title")
 <sup> index.js depends on two files: style.css and user.js.  
@@ -44,7 +44,7 @@ To optimize applications, build tools use a variety of processes including: code
 
 Build tools use different combinations of these to help streamline web apps.
 <span style = "background-color:black">
- >>>![graph](process-review.svg "Title")</span>
+ >>![graph](process-review.svg "Title")</span>
 <sup> 1. Source, 2. Compile, 3. Bundle, 4. Run, 5. Deploy
 
 ------
