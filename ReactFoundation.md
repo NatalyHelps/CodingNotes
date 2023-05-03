@@ -20,3 +20,5 @@ React is a JavaScript library created by Facebook with the purpose of building u
 
 ## Questions for Comprehension
 :question: What is the difference between a class component vs a function component? 
+:question: How do you create a state?
+:heavy_check_mark: You create state in a React component by declaring a state property on the component class in its constructor.
