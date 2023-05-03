@@ -1,7 +1,9 @@
  # Basics of React 
  
- :grey_question:What is React?
+ :grey_question: **What is React?**
 React is a JavaScript library created by Facebook with the purpose of building user interfaces. Facebook created React because they wanted to make it faster to update dynamic information. Instead of going the slower route in traditional web development where the DOM is updated frequently to reflect UI changes, React introduced a virtual DOM to make this more efficient. React also uses component-based architecture for development, which makes things fast and easy to maintain. 
+ 
+ ---
  
 ### Components
 1. **stateless functional component**: any function you write which accepts props and returns JSX
