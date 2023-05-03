@@ -12,8 +12,10 @@ React is a JavaScript library created by Facebook with the purpose of building u
 3. **stateful component**: class component that maintains its own internal state
 
 ## Vocabulary
-**State**: The part in a component that can change. When a component's state changes, React re-renders it. State is used for data like user input, up-to-date application data, or results of async requests. setState() is used to create and update states.
-**Hooks**: let *function* components manage state.
+**State**
+: The part in a component that can change. When a component's state changes, React re-renders it. State is used for data like user input, up-to-date application data, or results of async requests. setState() is used to create and update states.
+**Hooks**
+: let *function* components manage state.
 
 ## TIPS
 *Try to minimize statefulness so only specific areas control it.* (Encapsulation-modularity)
@@ -21,4 +23,4 @@ React is a JavaScript library created by Facebook with the purpose of building u
 ## Questions for Comprehension
 :question: What is the difference between a class component vs a function component? 
 :question: How do you create a state?
-:heavy_check_mark: You create state in a React component by declaring a state property on the component class in its constructor.
+: :heavy_check_mark: You create state in a React component by declaring a state property on the component class in its constructor.
