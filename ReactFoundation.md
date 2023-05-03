@@ -17,7 +17,8 @@ React is a JavaScript library created by Facebook with the purpose of building u
 ## Vocabulary
 **State**
 : The part in a component that can change. When a component's state changes, React re-renders it. State is used for data like user input, up-to-date application data, or results of async requests. setState() is used to create and update states. <br>
-**Hooks** *function* components manage state.
+**Hooks** 
+: are *function* components that manage state.
 
 ## TIPS
 *Try to minimize statefulness so only specific areas control it.* (Encapsulation-modularity)
@@ -27,13 +28,13 @@ React is a JavaScript library created by Facebook with the purpose of building u
 :question: What is the difference between a class component vs function component? <br><br>
 
 :question: How do you create a state? <br>
-: :heavy_check_mark: You create state in a React component by declaring a state property on the component class in its constructor. This initializes the component with state when it is created <br><br>
+: :heavy_check_mark: By declaring a state property `this.setstate` on the component class in its constructor. The component is then created with a state.<br><br>
 
 :question: Where do you initialize the state?<br>
 : :heavy_check_mark: In the component's constructor, under `super(props);` <br><br>
 
 :question: How do you create a class component? <br>
-: :heavy_check_mark: extend React.Component<br><br>
+: :heavy_check_mark: 'extend React.Component' (Using ES6 class syntax)<br><br>
 
 :question: What can I do with state? <br>
 : :heavy_check_mark: You can update it, render it in your UI, and pass it as props to child components.
