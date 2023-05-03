@@ -20,6 +20,8 @@ React is a JavaScript library created by Facebook with the purpose of building u
 *Try to minimize statefulness so only specific areas control it.* (Encapsulation-modularity)
 
 ## Questions for Comprehension
-:question: What is the difference between a class component vs a function component? <br>
+:question: What is the difference between a class component vs function component? <br>
 :question: How do you create a state? <br>
-: :heavy_check_mark: You create state in a React component by declaring a state property on the component class in its constructor.
+: :heavy_check_mark: You create state in a React component by declaring a state property on the component class in its constructor. This initializes the component with state when it is created
+:question: What can I do with state? <br>
+: :heavy_check_mark: You can update it, render it in your UI, and pass it as props to child components.
