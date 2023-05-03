@@ -29,7 +29,7 @@ React is a JavaScript library created by Facebook with the purpose of building u
 :question: How do you create a state? <br>
 : :heavy_check_mark: You create state in a React component by declaring a state property on the component class in its constructor. This initializes the component with state when it is created <br><br>
 
-:question: Where do you initialize the state?<br><br>
+:question: Where do you initialize the state?<br>
 : :heavy_check_mark: In the component's constructor, under `super(props);` <br><br>
 
 :question: How do you create a class component? <br>
