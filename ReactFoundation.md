@@ -48,6 +48,9 @@ React is a JavaScript library created by Facebook with the purpose of building u
 : :heavy_check_mark: You can update it, render it in your UI, and pass it as props to child components.
 
 :question: How do you bind this to a class method like handleClick? <br>
-: :heavy_check_mark: Example used with the method handleClick() `this.handleClick = this.handleClick.bind(this);`
+: :heavy_check_mark: Example used with the method handleClick() <br>
+`this.handleClick = this.handleClick.bind(this);`<br><br>
 
-
+:question: What is a controlled component? <br>
+: :heavy_check_mark:
+In React, a controlled component is a component where the value of its form elements, such as input, textarea, and select, are controlled by React state. In other words, the React component state serves as the single source of truth for the input's value, instead of the DOM. When a user types into an input field, the React component state is updated, and the input value is set to the updated state value. This way, the React component has full control over the input, and can modify or validate its value before rendering it. Controlled components are commonly used in React forms to achieve a more predictable and deterministic behavior.<br><br>
