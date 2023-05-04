@@ -38,6 +38,8 @@ React is a JavaScript library created by Facebook with the purpose of building u
 : :heavy_check_mark: 1) In the render method. Inside of the return. <br>
 2) Or in the render, before the return, you can write the JavaScript directly. (Without curly braces) Here you can write functions, access data, create variables etc. <br><br>
 
+:question: How do you change state? <br>
+: :heavy_check_mark: In your component class, call this.setState(). You pass in an object with key-value pairs. The key is your property and the value is your updated state data. <br><br>
 :question: How do you create a class component? <br>
 : :heavy_check_mark: `extend React.Component` (Using ES6 class syntax)<br><br>
 
