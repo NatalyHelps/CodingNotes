@@ -21,9 +21,9 @@ React is a JavaScript library created by Facebook with the purpose of building u
 : are *function* components that manage state like useState()<br>In contrast, setState() is used for class components and is not a hook but a method available on class components.
 
 ## TIPS
-*Try to minimize statefulness so only specific areas control it.* (Encapsulation-modularity)
-*If a component is stateful, it will always have access to the data in state in its render() method. You can access the data with this.state.
-*You can't rely on the previous value of this.state or this.props when calculating the next value because React may batch multiple setState() calls into a single update.*
+*Try to minimize statefulness so only specific areas control it.* (Encapsulation-modularity)<br>
+*If a component is stateful, it will always have access to the data in state in its render() method. You can access the data with this.state.*<br>
+*You can't rely on the previous value of this.state or this.props when calculating the next value because React may batch multiple setState() calls into a single update.*<br>
 
 ## Questions for Comprehension
 :question: What is the difference between a class component vs function component? <br><br>
@@ -48,6 +48,6 @@ React is a JavaScript library created by Facebook with the purpose of building u
 : :heavy_check_mark: You can update it, render it in your UI, and pass it as props to child components.
 
 :question: How do you bind this to a class method like handleClick? <br>
-: :heavy_check_mark: `this.handleClick = this.handleClick.bind(this);`
+: :heavy_check_mark: Example used with the method handleClick() `this.handleClick = this.handleClick.bind(this);`
 
 
