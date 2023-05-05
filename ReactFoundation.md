@@ -5,12 +5,12 @@
 React is a JavaScript library created by Facebook with the purpose of building user interfaces. Facebook created React because they wanted to make it faster to update dynamic information. Instead of going the slower route in traditional web development where the DOM is updated frequently to reflect UI changes, React introduced a virtual DOM to make this more efficient. It only updates the DOM when necessary. React also uses component-based architecture for development, which makes things fast and easy to maintain. 
 
  :grey_question: 
- **What are Components?**
- 
+ **What are Components?**<BR>
+ Each react component is a different part of the interface such as Navbar and Searchbar. 
  ---
  
 ### Components
-1. **stateless functional component**: any function you write which accepts props and returns JSX
+1. **stateless functional component**: a JavaScript function used to define a React component. It accepts props and returns JSX.
 2. **stateless component**: class that extends React.Component
 3. **stateful component**: class component that maintains its own internal state
 
