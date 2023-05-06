@@ -80,6 +80,8 @@ Example:<br>
      ` document.getElementById('app')` returns a DOM element from index.html.<br><BR>
 `.createRoot()` receives the DOM element as the first argument and creates a root for it.<br><BR>
 `.createRoot()` returns a reference to the root container on which you can call methods like `.render()`.<br><BR>
+  After the root is created, all that’s left to do is call the .render() method on the returned root and display the React component like so:<BR>
+  `ReactDOM.createRoot(document.getElementById('app')).render(<MyComponent />);`
 
 
 
