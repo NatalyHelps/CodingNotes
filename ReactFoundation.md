@@ -55,9 +55,9 @@ React is a JavaScript library created by Facebook with the purpose of building u
 : :heavy_check_mark:
 In React, a controlled component is a component where the value of its form elements, such as input, textarea, and select, are controlled by React state. In other words, the React component state serves as the single source of truth for the input's value, instead of the DOM. When a user types into an input field, the React component state is updated, and the input value is set to the updated state value. This way, the React component has full control over the input, and can modify or validate its value before rendering it. Controlled components are commonly used in React forms to achieve a more predictable and deterministic behavior.<br><br>
  
- What is a React root container?
+ :question: What is a React root container?
  
-  top-level container element into which all the React components are rendered. It's usually a div element in the HTML file where the React application is mounted using the ReactDOM.render() method.
+: :heavy_check_mark: top-level container element into which all the React components are rendered. It's usually a div element in the HTML file where the React application is mounted using the ReactDOM.render() method.
  
  When the React application is initialized, the root container is used to render the root component of the application. From there, all other child components are rendered inside the root container as necessary.<br><br>
 Example:<br>
