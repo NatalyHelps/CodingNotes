@@ -61,11 +61,11 @@ In React, a controlled component is a component where the value of its form elem
  
  When the React application is initialized, the root container is used to render the root component of the application. From there, all other child components are rendered inside the root container as necessary.<br><br>
 Example:<br>
- `ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+ `ReactDOM.render(<br>
+  <React.StrictMode><br>
+    <App /><br>
+  </React.StrictMode>,<br>
+  document.getElementById('root')<br>
 );`
  
  Here, `document.getElementById('root')` specifies the root container element, where the React application is mounted.
