@@ -69,14 +69,15 @@ Example:<br>
 `);`
  <BR>
  Here, `document.getElementById('root')` specifies the root container element, where the React application is mounted.<BR>
-  Extra: 
-  we call the createRoot method to create a React root container for displaying content. React applications typically have a single root DOM node, and everything inside it is managed by React DOM.
-  <BR><BR>
+ 
+  
+ :question: What is the `createRoot()` method?
+ : :heavy_check_mark: we call the createRoot method to create a React root container for displaying content. 
+  React applications typically have a single root DOM node, and everything inside it is managed by React DOM.
+ <BR><BR>
    In other words, we give createRoot a DOM element to render in, and React will take over managing the DOM inside it.
-   
    In `ReactDOM.createRoot(document.getElementById('app'));`<br><BR>
-   
-  ` document.getElementById('app')` returns a DOM element from index.html.<br><BR>
+     ` document.getElementById('app')` returns a DOM element from index.html.<br><BR>
 `.createRoot()` receives the DOM element as the first argument and creates a root for it.<br><BR>
 `.createRoot()` returns a reference to the root container on which you can call methods like `.render()`.<br><BR>
 
