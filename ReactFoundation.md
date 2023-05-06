@@ -10,7 +10,7 @@ React is a JavaScript library created by Facebook with the purpose of building u
  ---
  
 ### Components
-1. **stateless functional component**: a JavaScript function used to define a React component. It accepts props and returns JSX.
+1. **stateless functional component**: a JavaScript function used to define a React component. It accepts props and returns JSX. Must have a return statement. Simple calculations can come before the return statement. 
 2. **stateless component**: class that extends React.Component
 3. **stateful component**: class component that maintains its own internal state
 
@@ -80,7 +80,8 @@ Example:<br>
 `.createRoot()` receives the DOM element as the first argument and creates a root for it.<br><BR>
 `.createRoot()` returns a reference to the root container on which you can call methods like `.render()`.<br><BR>
   After the root is created, all that’s left to do is call the .render() method on the returned root and display the React component like so:<BR>
-  `ReactDOM.createRoot(document.getElementById('app')).render(<MyComponent />);`
+  `ReactDOM.createRoot(document.getElementById('app')).render(<MyComponent />);`<BR><BR>
+  passing props:  in React, the attributes that you pass to a component when you render it become part of the props object 
 
 
 
