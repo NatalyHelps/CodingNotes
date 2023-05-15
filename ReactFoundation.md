@@ -26,36 +26,36 @@ React is a JavaScript library created by Facebook with the purpose of building u
 *You can't rely on the previous value of this.state or this.props when calculating the next value because React may batch multiple setState() calls into a single update.*<br>
 
 ## Questions for Comprehension
-:question: What is the difference between a class component vs function component? <br><br>
+:question: **What is the difference between a class component vs function component?** <br><br>
 
-:question: How do you create a state? <br>
+:question: **How do you create a state?** <br>
 : :heavy_check_mark: By declaring a state property `this.setstate` on the component class in its constructor. The component is then created with a state and becomes stateful.<br><br>
 
-:question: Where do you initialize the state?<br>
+:question: **Where do you initialize the state?**<br>
 : :heavy_check_mark: In the component's constructor, under `super(props);` <br><br>
 
 
-:question: How do you access state? <br>
+:question: **How do you access state?** <br>
 : :heavy_check_mark: 1) In the render method. Inside of the return. <br>
 2) Or in the render, before the return, you can write the JavaScript directly. (Without curly braces) Here you can write functions, access data, create variables etc. <br><br>
 
-:question: How do you change state? <br>
+:question: **How do you change state?** <br>
 : :heavy_check_mark: In your component class, call this.setState(). You pass in an object with key-value pairs. The key is your property and the value is your updated state data. <br><br>
-:question: How do you create a class component? <br>
+:question: **How do you create a class component?** <br>
 : :heavy_check_mark: `extend React.Component` (Using ES6 class syntax)<br><br>
 
-:question: What can I do with state? <br>
+:question: **What can I do with state?** <br>
 : :heavy_check_mark: You can update it, render it in your UI, and pass it as props to child components.
 
-:question: How do you bind this to a class method like handleClick? <br>
+:question: **How do you bind this to a class method like handleClick?** <br>
 : :heavy_check_mark: Example used with the method handleClick() <br>
 `this.handleClick = this.handleClick.bind(this);`<br><br>
 
-:question: What is a controlled component? <br>
+:question: **What is a controlled component?** <br>
 : :heavy_check_mark:
 In React, a controlled component is a component where the value of its form elements, such as input, textarea, and select, are controlled by React state. In other words, the React component state serves as the single source of truth for the input's value, instead of the DOM. When a user types into an input field, the React component state is updated, and the input value is set to the updated state value. This way, the React component has full control over the input, and can modify or validate its value before rendering it. Controlled components are commonly used in React forms to achieve a more predictable and deterministic behavior.<br><br>
  
- :question: What is a React root container?<br> 
+ :question: **What is a React root container?**<br> 
 : :heavy_check_mark: top-level container element into which all the React components are rendered. It's usually a div element in the HTML file where the React application is mounted using the ReactDOM.render() method.
  
  When the React application is initialized, the root container is used to render the root component of the application. From there, all other child components are rendered inside the root container as necessary.<br><br>
@@ -70,7 +70,7 @@ Example:<br>
  Here, `document.getElementById('root')` specifies the root container element, where the React application is mounted.<BR>
  
   
- :question: What is the `createRoot()` method? <br>
+ :question: **What is the `createRoot()` method?** <br>
  : :heavy_check_mark: we call the createRoot method to create a React root container for displaying content. 
   React applications typically have a single root DOM node, and everything inside it is managed by React DOM.
  <BR><BR>
@@ -83,7 +83,7 @@ Example:<br>
   `ReactDOM.createRoot(document.getElementById('app')).render(<MyComponent />);`<BR><BR>
   passing props:  in React, the attributes that you pass to a component when you render it become part of the props object 
   
-   :question: What does useState() return?<br>
+   :question: **What does useState() return?**<br>
  : :heavy_check_mark: The useState hook in React returns an array containing two elements: the current state value and a function to update that state value. <br>
   `const [state, setState] = useState(initialValue);`
 
