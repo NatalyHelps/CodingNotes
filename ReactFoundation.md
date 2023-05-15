@@ -82,6 +82,10 @@ Example:<br>
   After the root is created, all that’s left to do is call the .render() method on the returned root and display the React component like so:<BR>
   `ReactDOM.createRoot(document.getElementById('app')).render(<MyComponent />);`<BR><BR>
   passing props:  in React, the attributes that you pass to a component when you render it become part of the props object 
+  
+   :question: What does useState() return?<br>
+ : :heavy_check_mark: The useState hook in React returns an array containing two elements: the current state value and a function to update that state value. <br>
+  `const [state, setState] = useState(initialValue);`
 
 
 
