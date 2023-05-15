@@ -85,7 +85,10 @@ Example:<br>
   
    :question: **What does useState() return?**<br>
  : :heavy_check_mark: The useState hook in React returns an array containing two elements: the current state value and a function to update that state value. <br>
-  `const [state, setState] = useState(initialValue);`
+  Note that setState() is not a hook, but just a method available on class components. 
+  `const [state, setState] = useState(initialValue);`<BR><BR>
+  state is the state variable, while setState is a function that allows you to update the state value. <BR>
+  With setState you can provide a new state value or a callback function that receives the previous state and returns the new state.
 
 
 
