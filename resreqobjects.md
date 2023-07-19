@@ -10,7 +10,7 @@
   </thead>
   <tbody>
     <tr>
-      <td>req.params</td>
+      <td>*req.params*</td>
       <td>Provides access to route parameters in the URL.</td>
     </tr>
     <tr>
