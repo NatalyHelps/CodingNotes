@@ -11,9 +11,9 @@
   <tbody>
     <tr>
       <td>
-        <span style="color: red;">
+       
         <b>req.params</b>
-        </span>
+       
         
         </td>
       <td>Provides access to route parameters in the URL.</td>
