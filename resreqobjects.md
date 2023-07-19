@@ -1,7 +1,7 @@
 <h1>Commonly used methods on the req, res objects in Express</h1>
 <br />
 <br />
-<table style="background-color: pink;">
+<table>
   <thead>
     <tr>
       <th>Request Methods</th>
