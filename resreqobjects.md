@@ -10,7 +10,12 @@
   </thead>
   <tbody>
     <tr>
-      <td><b>req.params</b></td>
+      <td>
+        <span style="color: red;">
+        <b>req.params</b>
+        </span>
+        
+        </td>
       <td>Provides access to route parameters in the URL.</td>
     </tr>
     <tr>
