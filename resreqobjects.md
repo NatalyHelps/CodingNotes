@@ -43,3 +43,46 @@
     </tr>
   </tbody>
 </table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Response Methods</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>res.send()</td>
+      <td>Sends a response to the client with a specified body.</td>
+    </tr>
+    <tr>
+      <td>res.json()</td>
+      <td>Sends a JSON response to the client.</td>
+    </tr>
+    <tr>
+      <td>res.render()</td>
+      <td>Renders a view template using a specified template engine.</td>
+    </tr>
+    <tr>
+      <td>res.redirect()</td>
+      <td>Redirects the client to a different URL.</td>
+    </tr>
+    <tr>
+      <td>res.status()</td>
+      <td>Sets the status code of the response.</td>
+    </tr>
+    <tr>
+      <td>res.header()</td>
+      <td>Sets an HTTP response header.</td>
+    </tr>
+    <tr>
+      <td>res.cookie()</td>
+      <td>Sets a cookie to be sent with the response.</td>
+    </tr>
+    <tr>
+      <td>res.sendFile()</td>
+      <td>Sends a file as the response.</td>
+    </tr>
+  </tbody>
+</table>
