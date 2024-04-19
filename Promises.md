@@ -1,6 +1,6 @@
 # Promises
 
-**How to handle errors?:**
+:question:**How to handle errors?:**
 
 1. Asynchronous computation runs: When an asynchronous operation is initiated, such as making an HTTP request or reading a file, it typically runs in the background without blocking the main execution thread. This means that the JavaScript engine can continue executing other code while waiting for the asynchronous operation to complete.
 
