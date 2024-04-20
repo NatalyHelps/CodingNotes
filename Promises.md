@@ -4,9 +4,8 @@
    
 :question: **What is a promise?** 
 Promises are just a different way of working with callbacks. Since async programming breaks exception handling, promises help standardize a way to handle errors. They provide a way for errors to propagate correctily thru a chain of promises. 
-
-**If a problem is fulfilled:** The value is a return value that gets passed to any callbuck functions registered as the first argument of then.
-**If a promise is rejected:** The value is an error of some sort that is passed to any callback functions registered with catch. 
+**If a Promise is fulfilled:** The value is a return value that gets passed to any callbuck functions registered as the first argument of then.
+**If a Promise is rejected:** The value is an error of some sort that is passed to any callback functions registered with catch. 
 
 
 :question: **What is .then()?**
