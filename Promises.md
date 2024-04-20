@@ -3,17 +3,18 @@
 
    
 :question: **What is a promise?** 
-Promises are just a different way of working with callbacks. Since async programming breaks exception handling, promises help standardize a way to handle errors. They provide a way for errors to propagate correctily thru a chain of promises. 
+Promises are just a different way of working with callbacks. Since asynchronous programming breaks exception handling, Promises help standardize a way to handle errors. Promises provide a way for errors to propagate correctily thru a chain of promises. 
 
-**If a Promise is fulfilled:** The value is a return value that gets passed to any callbuck functions registered as the first argument of then.
+**If a Promise is fulfilled:** The value is a return value that gets passed to any callbuck functions registered as the first argument of .then().
 
 **If a Promise is rejected:** The value is an error of some sort that is passed to any callback functions registered with catch. 
 
 
 :question: **What is .then()?**
 Instead of nested callback functions which can be unwieldy, functions are defined in a nested then() method in a linear promise chain.
-when the promise returns a value, you usually want to do something with that value. 
-They act like a callback registration like the addEventListener() method that is used for registering event handlers in client-side JavaScript. ALtho unlike event listeners a Promise represents a single computation. Each function with .then() will only be invoked once. The computation is performed after the promise object is returned to us. 
+when the promise returns a value, you usually want to do something with that value, that is where .then() comes in handy. 
+
+Each function with .then() will only be invoked once. The computation is performed after the promise object is returned to us. 
 
 
 :question: **How to handle errors?**
