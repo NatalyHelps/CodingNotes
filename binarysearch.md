@@ -1,6 +1,3 @@
-Sorting Algorithms:
-No sorting algorithms provided.
-
 Searching Algorithms:
 Binary Search:
 javascript
@@ -33,7 +30,29 @@ javascript
         }
     
         // Add target value to output array
+
+        
         arrayPath.push(searchList[middle]);
     
         return arrayPath;
     }
+
+    function binarySearch(arr, target) {
+    let low = 0;
+    let high = arr.length - 1;
+
+    while (low <= high) {
+        let mid = Math.floor((low + high) / 2);
+        let guess = arr[mid];
+
+        if (guess === target) {
+            return mid;  // Found the target, return its index
+        } else if (guess < target) {
+            low = mid + 1;  // Target is in the right half
+        } else {
+            high = mid - 1;  // Target is in the left half
+        }
+    }
+
+    return null;  // Target not found
+}
