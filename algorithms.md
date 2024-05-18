@@ -1,6 +1,3 @@
-
-Sure, here's the formatted text in Markdown:
-
 Sorting Algorithms:
 No sorting algorithms provided.
 
