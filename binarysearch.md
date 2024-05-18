@@ -55,3 +55,8 @@ javascript
     }
     return null;  // Target not found
     }
+    
+    // Example usage:
+    const myArray = [1, 3, 5, 7, 9];
+    console.log(binarySearch(myArray, 3));  // Output: 1 (index of 3 in the array)
+    console.log(binarySearch(myArray, -1)); // Output: null (target not found)
