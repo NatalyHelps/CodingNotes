@@ -1,40 +1,42 @@
-sorting algorithms:
 
-searching algorithms:
+Sure, here's the formatted text in Markdown:
+
+Sorting Algorithms:
+No sorting algorithms provided.
+
+Searching Algorithms:
 Binary Search:
-`function binarySearch(searchList, value) {
+javascript
+Copy code
+function binarySearch(searchList, value) {
+    let arrayPath = [];
+    let left = 0;
+    let right = searchList.length - 1;
+    let middle = Math.floor(right / 2);
 
-let arrayPath = [];
-let left = 0;
-let right = searchList.length - 1;
-let middle = Math.floor(right/2);
+    // Search for target value
+    while (searchList[middle] !== value) {
+        arrayPath.push(searchList[middle]);
 
-//search for target value
+        // Search for value not found
+        if (right < left) {
+            return 'Value Not Found';
+        }
 
-while(searchList[middle] !== value) {
-    arrayPath.push(searchList[middle]);
-    
-//SEARCH FOR VALUE NOT FOUND - if right is smaller than left it means the search space isn't valid - no elements left to check - termination condition, means the target value is not present in the array
-      if (right < left) {
-       return 'Value Not Found';
+        // Value is in left or right portion of array
+        // Update L - M - R
+        if (searchList[middle] > value) {
+            right = middle - 1;
+            middle = left + Math.floor((right - left) / 2);
+        } else {
+            // If the middle is smaller than the target, the middle now becomes the left.
+            left = middle + 1;
+            middle = left + Math.floor((right - left) / 2);
+        }
     }
 
-// value is in left or right portion of array
-// update L - M - R
-if (searchList[middle] > value) {
-  right = middle - 1;
-  middle = left + Math.floor((right - left) / 2);
+    // Add target value to output array
+    arrayPath.push(searchList[middle]);
 
-//right-left would give you the length of the search range. And then dividing it by 2 would be cutting it in half. 
-} else {
-//if the middle is smaller than the target, the middle now becomes the left. 
-  left = middle + 1;
-  middle = left + Math.floor((right - left) / 2);
-
-  }
+    return arrayPath;
 }
-  // add target value to output array  
-  arrayPath.push(searchList[middle]);
-
-  return arrayPath;
-}`
