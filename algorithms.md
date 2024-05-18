@@ -7,8 +7,8 @@ No sorting algorithms provided.
 Searching Algorithms:
 Binary Search:
 javascript
-Copy code
-function binarySearch(searchList, value) {
+
+//function binarySearch(searchList, value) {
     let arrayPath = [];
     let left = 0;
     let right = searchList.length - 1;
