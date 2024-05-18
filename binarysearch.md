@@ -53,6 +53,5 @@ javascript
             high = mid - 1;  // Target is in the left half
         }
     }
-
     return null;  // Target not found
-}
+    }
