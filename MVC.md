@@ -26,7 +26,7 @@ The controller methods then interact with the Model to fetch or update data and 
 <h1>Questions</h1>
 <details>
     <summary>Which part of MVC are routes?</summary>
-   CONTROLLER - However, they are trpically defined separately for the sake of organization. 
+   CONTROLLER - However, they are typically defined separately for the sake of organization. 
 </details>
 
 
