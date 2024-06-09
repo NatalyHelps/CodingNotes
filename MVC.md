@@ -11,7 +11,7 @@
     <summary>Controller</summary>
     the Controller is a crucial component responsible for handling user input, updating the Model accordingly, and selecting the appropriate View for rendering to the user. It acts as an intermediary between the Model and the View, facilitating the flow of data and interactions within the application.
 
-    ---
+---
     
 Routes are typically managed within the Controller layer, but are often defined separately for organizational purposes.
 
