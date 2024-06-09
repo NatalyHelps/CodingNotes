@@ -5,7 +5,7 @@
 </details>
 <details>
     <summary>View</summary>
-    The View is the component responsible for presenting data to the user and handling how that data is displayed. It is the user interface of the application, and it renders the data from the Model in a way that is understandable and actionable for the user.
+    The component that presents data to the user and handles how that data is displayed. It is the user interface of the application, and it renders the data from the Model in a way that is understandable and actionable for the user.
 </details>
 <details>
     <summary>Controller</summary>
