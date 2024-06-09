@@ -1,0 +1,12 @@
+<details>
+    <summary>Model</summary>
+    Something
+</details>
+<details>
+    <summary>Viewer</summary>
+    Something
+</details>
+<details>
+    <summary>Controller</summary>
+    Something
+</details>
