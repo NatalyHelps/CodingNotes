@@ -1,4 +1,4 @@
-
+<h1>Model→Controller→View</h1>
 <details>
     <summary>Model</summary>
     In the MVC (Model-View-Controller) architectural pattern, the Model is a critical component that represents the data and the business logic of the application. It encapsulates the core functionalities and behaviors related to the application's data, often interacting directly with the database or other data sources.
@@ -21,6 +21,6 @@ When a request comes in, the routing mechanism determines which controller and a
 ACTIONS - Routes call the appropriate controller methods (actions) to handle the incoming requests.
 </details>
 
-Model→Controller→View
+
 
 
