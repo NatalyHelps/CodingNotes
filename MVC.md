@@ -19,6 +19,7 @@ Routes: routes act as the entry points that map incoming HTTP requests to specfi
 When a request comes in, the routing mechanism determines which controller and action should handle the request. 
 
 ACTIONS - Routes call the appropriate controller methods (actions) to handle the incoming requests.
+
 The controller methods then interact with the Model to fetch or update data and pass this data to the view for rendering. 
 </details>
 
