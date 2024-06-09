@@ -23,6 +23,10 @@ ACTIONS - Routes call the appropriate controller methods (actions) to handle the
 The controller methods then interact with the Model to fetch or update data and pass this data to the view for rendering. 
 </details>
 
-
+<h1>Questions</h1>
+<details>
+    <summary>Which part of MVC are routes?</summary>
+   CONTROLLER - However, they are trpically defined separately for the sake of organization. 
+</details>
 
 
