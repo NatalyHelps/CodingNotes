@@ -10,7 +10,7 @@
     Contains the type of token to be created, and the signing algorithm you're going to use. The type is always 'JWT'
 
 </details>
-      ```{
+      ```json {
       'alg': 'HS256',  
       'typ': 'JWT'
     }
