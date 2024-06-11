@@ -23,6 +23,7 @@
 <details>
     <summary>JWT Signature</summary>
     A JWT payload contains claims about an entity. A claim is a statement or piece of information and the entity is often a user. There are three claims: Registered, Public, and Private. Anyone can use Registered claim types. Public are created by the developer and can be used publicly. They should be registered to avoid collisions. (repeated claims) Private claims are not registered or public. They're only used between parties that have agreed to use them. 
+  
 ```
 {
        'sub': '1234567890',
