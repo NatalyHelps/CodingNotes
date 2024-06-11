@@ -8,10 +8,10 @@
 <details>
     <summary>JWT Header</summary>
     Contains the type of token to be created, and the signing algorithm you're going to use. The type is always 'JWT'
-      `{
+      ```{
       'alg': 'HS256',  
       'typ': 'JWT'
-    }`
+    }```
 </details>
 
 
