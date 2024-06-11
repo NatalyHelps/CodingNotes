@@ -6,8 +6,12 @@
   <li>Signature</li>
 </ol>
 <details>
-    <summary>Model</summary>
-    In the MVC (Model-View-Controller) architectural pattern, the Model is a critical component that represents the data and the business logic of the application. It encapsulates the core functionalities and behaviors related to the application's data, often interacting directly with the database or other data sources.
+    <summary>JWT Header</summary>
+    Contains the type of token to be created, and the signing algorithm you're going to use. The type is always 'JWT'
+      `{
+      'alg': 'HS256',  
+      'typ': 'JWT'
+    }`
 </details>
 
 
