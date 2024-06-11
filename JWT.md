@@ -14,3 +14,8 @@
       'alg': 'HS256',  
       'typ': 'JWT'
     }
+```json
+  {
+    "alg": "HS256",  
+    "typ": "JWT"
+  }
